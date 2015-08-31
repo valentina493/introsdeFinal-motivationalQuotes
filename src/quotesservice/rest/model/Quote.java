@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
 
 import quotesservice.rest.dao.MyDatabaseDao;
 
-@Entity  // indicates that this class is an entity to persist in DB
+@Entity  
 @Table(name="quotes")
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.PROPERTY)
